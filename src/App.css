@@ -1,22 +1,19 @@
+@import url("./css/fonts.module.css");
+
+body {
+  font-family: var(--reg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+  height: 100vh;
+  overflow-y: hidden;
+  background-image: url("./img/foodiesfeed.com_messy-pizza-on-a-black-table.webp");
+  background-size: cover;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #fff;
 }

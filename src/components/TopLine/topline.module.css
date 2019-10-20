@@ -1,0 +1,15 @@
+@import url("../../css/fonts.module.css");
+
+.top_line {
+  position: fixed;
+  top: 0;
+  width: calc(100% - 30px);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  height: 35px;
+}
